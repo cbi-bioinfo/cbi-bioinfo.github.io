@@ -1,1 +1,1 @@
-# cbi_beta
+# cbi-bioinfo.github.io

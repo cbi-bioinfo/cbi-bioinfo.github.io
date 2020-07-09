@@ -2534,6 +2534,17 @@
 				display: block;
 				width: 100%;
 			}
+		.image.fit.left {
+			float:left;
+			display: block;
+			margin: 0 0 1em 0;
+			width: 100%;
+		}
+
+			.image.fit.left img {
+				display: block;
+				width: 100%;
+			}
 
 /* List */
 

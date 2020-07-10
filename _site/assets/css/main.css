@@ -3255,6 +3255,33 @@
 		text-align: center;
 	}
 
+	#banner2 {
+		background-attachment: scroll,							fixed;
+		background-color: #666;
+		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-position: top left,						center center;
+		background-repeat: repeat,							no-repeat;
+		background-size: auto,							cover;
+		color: #fff;
+		padding: 0 0 0 0;
+		text-align: center;
+	}
+		#banner2 h2, #banner2 h3, #banner2 h4, #banner2 h5, #banner2 h6 {
+			color: #fff;
+		}
+		#banner2 h2 {
+			font-size: 3.5em;
+			line-height: 1em;
+			margin: 0 0 0 0;
+			padding: 0;
+		}
+	#main_lab_name h2 {
+			font-size: 3.5em;
+			line-height: 1em;
+			margin: 0 0 0 0;
+			padding: 0;
+			color: #fff;
+		}
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
@@ -3344,8 +3371,37 @@
 				padding: 1em 0 1.25em 0;
 			}
 
+	/* for particle title commented
 	body.landing #main {
 		margin-top: -14em;
+	} */
+
+	#main_lab_name {
+		padding: 4em 0;
+		text-align: center;
+	}
+
+		#main_lab_name > header {
+			text-align: center;
+			margin: 0 0 3em 0;
+		}
+
+			#main_lab_name > header h2 {
+				font-size: 2.75em;
+				margin: 0;
+			}
+
+			#main_lab_name > header p {
+				border-top: solid 2px #e5e5e5;
+				color: #777;
+				display: inline-block;
+				font-style: normal;
+				margin: 1em 0 0 0;
+				padding: 1em 0 1.25em 0;
+			}
+
+	body.landing #main_lab_name {
+		margin-top: -25em;
 	}
 
 /* Footer */
@@ -3504,6 +3560,9 @@
 				#banner h2 {
 					font-size: 3.5em;
 				}
+			#main_lab_name h2 {
+				font-size: 3.5em;
+			}
 
 	}
 
@@ -3847,6 +3906,12 @@
 					font-size: 1.25em;
 				}
 
+			#main_lab_name h2 {
+				font-size: 2.25em;
+				padding-bottom: 1em;
+			}
+
+			
 		/* Main */
 
 			#main {
@@ -3871,6 +3936,31 @@
 				margin-top: 0;
 			}
 
+
+			#main_lab_name {
+				padding: 4em 0 0 0;
+			}
+
+				#main_lab_name > header {
+					margin: 0 2em 1.5em 2em;
+				}
+
+					#main_lab_name > header h2 {
+						font-size: 2em;
+					}
+
+					#main_lab_name > header p {
+						font-size: 1em;
+						padding-bottom: 1em;
+					}
+
+			#banner2{
+				height: 14em;
+			}
+			body.landing #main_lab_name {
+				margin-top: -10em;
+				padding: 0;
+			}
 		/* Footer */
 
 			#footer {
@@ -3978,6 +4068,9 @@
 		/* Banner */
 
 			#banner {
+				padding: 5em 3em 4em 3em;
+			}
+			#banner2 {
 				padding: 5em 3em 4em 3em;
 			}
 

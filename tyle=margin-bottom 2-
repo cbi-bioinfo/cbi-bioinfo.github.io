@@ -1,0 +1,69 @@
+[1mdiff --git a/member.html b/member.html[m
+[1mindex da69963..832e9e4 100644[m
+[1m--- a/member.html[m
+[1m+++ b/member.html[m
+[36m@@ -97,14 +97,14 @@[m
+ 										<h3><b>MS</b></h3>[m
+ 										<div class="row">[m
+ 											<div class="col-2-1 col-12-narrower">[m
+[31m-												<span class="image fit"><img src="images/NaYeon_Jo.jpg" alt="" /></span>[m
+[31m-												<h4><b>Nayeon Jo</b></h4>[m
+[31m-												nannanijo@gmail.com[m
+[32m+[m												[32m<span class="image fit"><img src="images/chanhyeon_park.jpg" alt="" /></span>[m[41m[m
+[32m+[m												[32m<h4><b>Chanhyeon Park</b></h4>[m[41m[m
+[32m+[m												[32mpzkeung@sookmyung.ac.kr[m[41m[m
+ 											</div>[m
+ 											<div class="col-2-1 col-12-narrower">[m
+[31m-												<span class="image fit"><img src="images/SeungYeon_Chae_sw.jpg" alt="" /></span>[m
+[31m-												<h4><b>Seungyeon Chae</b></h4>[m
+[31m-												chaesy@sm.ac.kr[m
+[32m+[m												[32m<span class="image fit"><img src="images/soyeon_kim.jpg" alt="" /></span>[m[41m[m
+[32m+[m												[32m<h4><b>Soyeon Kim</b></h4>[m[41m[m
+[32m+[m												[32mkimsoy9621@gmail.com[m[41m[m
+ 											</div>[m
+ 										</div>[m
+ 									</header>[m
+[36m@@ -119,26 +119,6 @@[m
+ 													<h4><b>Youngbin Kong</b></h4>[m
+ 													youngthing@sm.ac.kr[m
+ 											</div> -->[m
+[31m-											<div class="col-2-1 col-12-narrower">[m
+[31m-													<span class="image fit"><img src="images/YoonJu_Kim.jpg" alt="" /></span>[m
+[31m-													<h4><b>Yoonju Kim</b></h4>[m
+[31m-													angelkim0409@sm.ac.kr[m
+[31m-											</div>[m
+[31m-											<div class="col-2-1 col-12-narrower">[m
+[31m-													<span class="image fit"><img src="images/JiHyun_Kyoung.jpg" alt="" /></span>[m
+[31m-													<h4><b>Ji Hyun Kyoung</b></h4>[m
+[31m-													jihyuneee01@sm.ac.kr[m
+[31m-											</div>[m
+[31m-											<div class="col-2-1 col-12-narrower">[m
+[31m-													<span class="image fit"><img src="images/YuGyeong_Hwang.jpg" alt="" /></span>[m
+[31m-													<h4><b>YuGyeong Hwang</b></h4>[m
+[31m-													ykdooley@sm.ac.kr[m
+[31m-											</div>[m
+[31m-											<div class="col-2-1 col-12-narrower">[m
+[31m-													<span class="image fit"><img src="images/Jiyun_Kim.jpg" alt="" /></span>[m
+[31m-													<h4><b>Jiyun Kim</b></h4>[m
+[31m-													ally432@sm.ac.kr[m
+[31m-											</div>[m
+ [m
+ 										</div>[m
+ 									</header>[m
+[36m@@ -149,6 +129,16 @@[m
+ 									<header>[m
+ 										<h3><b>Alumni</b></h3>[m
+ 										<div class="row">[m
+[32m+[m											[32m<div class="col-2-1 col-12-narrower">[m[41m[m
+[32m+[m												[32m<span class="image fit"><img src="images/NaYeon_Jo.jpg" alt="" /></span>[m[41m[m
+[32m+[m												[32m<h4><b>Nayeon Jo</b></h4>[m[41m[m
+[32m+[m												[32mTBD[m[41m[m
+[32m+[m											[32m</div>[m[41m[m
+[32m+[m											[32m<div class="col-2-1 col-12-narrower">[m[41m[m
+[32m+[m												[32m<span class="image fit"><img src="images/SeungYeon_Chae_sw.jpg" alt="" /></span>[m[41m[m
+[32m+[m												[32m<h4><b>Seungyeon Chae</b></h4>[m[41m[m
+[32m+[m												[32mTBD[m[41m[m
+[32m+[m											[32m</div>[m[41m[m
+ 											<div class="col-2-1 col-12-narrower" style="margin-bottom: 2%">[m
+ 												<span class="image fit"><img src="images/SuHyeon_Park.jpg" alt="" /></span>[m
+ 												<h4><b>Suhyeon Park</b></h4>[m

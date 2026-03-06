@@ -1,3 +1,6 @@
+---
+page_name: about
+---
 <!DOCTYPE HTML>
 <!--
 	Alpha by HTML5 UP
@@ -13,32 +16,7 @@
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
-
-			<!-- Header -->
-				<header id="header" >
-					<h1><a href="index.html" class="icon solid fa-dna" > (CBI)</a> Computational Bio Intelligence</h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a class="act" href="about.html">About</a></li>
-							<li><a href="publication.html">Publication</a></li>
-							<li><a href="member.html">Members</a> </li>
-							<li>
-								<a href="#" class="icon solid fa-angle-down">Softwares</a>
-								<ul>
-									<li><a href="https://github.com/cbi-bioinfo/moBRCA-net">moBRCA-net</a></li>
-									<li><a href="https://github.com/cbi-bioinfo/meth-SemiCancer">meth-SemiCancer</a></li>
-									<li><a href="https://github.com/cbi-bioinfo/methCancer-gen">methCancer-gen</a></li>
-									<li><a href="https://github.com/bhi-kimlab/BiSpark/">BiSpark</a></li>
-									<li><a href="https://paryoja.github.io/Cloud-BS/">Cloud-BS</a></li>
-									<li><a href="https://github.com/cbi-bioinfo/scDAE">scDAE</a></li>
-									<li><a href="https://github.com/joungmin-choi/moSCminer">moSCminer</a></li>
-								</ul>
-							</li>
-							<li><a href="contact.html" class="button">Contact</a></li>
-						</ul>
-					</nav>
-				</header>
+			{% include header.html %}
 				<!--jheader id="header" >
 					<h1><a href="index.html" class="icon solid fa-dna" > (CBI)</a> Computational Bio Intelligence</h1>
 					<nav id="nav">
@@ -124,6 +102,11 @@
 											</tr>
 										</thead>
 										<tbody>
+											<tr>
+												<td>한국연구재단</td>
+												<td>개방형 AI 신약개발·데이터 분석 플랫폼 개발센터</td>
+												<td>2025 - 2028</td>
+											</tr>	
 											<tr>
 												<td>질병관리청</td>
 												<td>Integrated analysis of time-series multi-omics data and application in artificial intelligence</td>
@@ -237,6 +220,18 @@
 												</td>
 											</tr>
 											<tr>
+												<td>MoDAmix</td>
+												<td>a Unified Framework for Correcting Batch Effects and Integrating Multi-Omics Data
+												</td>
+												<td>
+													<a href="https://github.com/cbi-bioinfo/MoDAmix">
+														<span style="color:orange">
+															<i class="icon solid fa-link" style="font-size:15px" ></i>
+														</span>	
+													</a>
+												</td>
+											</tr>
+											<tr>
 												<td>moSCminer</td>
 												<td> a cell subtype classification framework based on the attention neural network integrating the single-cell multi-omics dataset on the cloud</td>
 												<td>
@@ -252,6 +247,17 @@
 												<td> a cell subtype classification model via representation learning based on a denoising autoencoder for single-cell RNA sequencing</td>
 												<td>
 													<a href="https://github.com/cbi-bioinfo/scDAE">
+														<span style="color:orange">
+															<i class="icon solid fa-link" style="font-size:15px" ></i>
+														</span>	
+													</a>
+												</td>
+											</tr>
+											<tr>
+												<td>TSCytoPred</td>
+												<td> a Deep Learning Framework for Inferring Cytokine Expression Trajectories from Irregular Longitudinal Gene Expression Data to Enhance Multi-Omics Analyses</td>
+												<td>
+													<a href="https://github.com/joungmin-choi/TSCytoPred">
 														<span style="color:orange">
 															<i class="icon solid fa-link" style="font-size:15px" ></i>
 														</span>	
